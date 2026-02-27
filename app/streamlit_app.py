@@ -383,4 +383,4 @@ with tab3:
             })
 
         df_full = pd.DataFrame(all_records).sort_values("Risk Score", ascending=False)
-        st.dataframe(df_full, hide_index=True, use_container_width=True) 
+        st.dataframe(df_full, hide_index=True, use_container_width=True)  
