@@ -250,4 +250,4 @@ class RiskEngine:
         risk_scores = self.compute_risk_scores(graph, pca_df)
         risk_df = self.risk_dataframe(risk_scores, pca_df)
 
-        return risk_df, risk_scores
+        return risk_df, risk_scores 
