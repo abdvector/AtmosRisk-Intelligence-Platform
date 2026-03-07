@@ -138,4 +138,4 @@ class StatisticalValidator:
             "ci_high": ci_high,
             "p_val": p_val,
             "status": status,
-        }
+        } 
