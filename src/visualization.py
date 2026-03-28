@@ -308,4 +308,4 @@ def build_network_graph(graph, risk_scores):
         margin=dict(l=10, r=10, t=40, b=10),
     )
 
-    return fig   
+    return fig    
