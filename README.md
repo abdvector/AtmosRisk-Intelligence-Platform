@@ -582,4 +582,4 @@ The UI is built with a premium dark theme to ensure maximum visibility of critic
 
 ## License
 
-This project is for academic and research purposes.
+This project is for academic and research purposes. 
