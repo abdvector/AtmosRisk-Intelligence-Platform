@@ -5,6 +5,14 @@
 > Misra-Gries heavy-hitter detection, bootstrap confidence intervals, and permutation significance
 > testing — all visualized through an interactive Plotly/Streamlit dashboard.
 
+![Spatial Map Topology](Images/normal%20terrain.png)
+<br/>
+*Geographic Risk Topology: The platform computes a Kruskal Maximum Spanning Tree backbone overlaid on satellite terrain to track the precise paths of pollution transport across critical nodes.*
+
+![Wind and Transport Data](Images/wind.png)
+<br/>
+*Atmospheric Transport & Wind Data: High-fidelity visualizations and network graph analytics allow decision-makers to track the directional flow and dispersion of particulate matter.*
+
 ---
 
 ## Table of Contents
@@ -19,10 +27,9 @@
 8. [Module Reference](#module-reference)
 9. [Tests](#tests)
 10. [Configuration](#configuration)
-11. [Screenshots](#screenshots)
-12. [Current Limitation & Real-Time Upgrade Path](#current-limitation--real-time-upgrade-path)
-13. [Sensor Network Coverage](#sensor-network-coverage)
-14. [Dependencies](#dependencies)
+11. [Current Limitation & Real-Time Upgrade Path](#current-limitation--real-time-upgrade-path)
+12. [Sensor Network Coverage](#sensor-network-coverage)
+13. [Dependencies](#dependencies)
 
 ---
 
@@ -563,20 +570,6 @@ if time.time() - st.session_state.last_refresh > 1800:  # 30 min
 | Trend chart | synthetic cycles | real pollution events |
 | Geo map | Supported | Supported |
 | **Decision utility** | Academic / demo | **Operational / policy** |
-
----
-
-## Screenshots
-
-The UI is built with a premium dark theme to ensure maximum visibility of critical analytics during operations.
-
-![Spatial Map Topology](file:///c:/Users/akd27/Desktop/SIDE%20WORK/Projects/AtmosRisk-Intelligence-Platform/Images/normal%20terrain.png)
-<br/>
-*Geographic Risk Topology: Kruskal Maximum Spanning Tree backbone overlaid on satellite terrain.*
-
-![Wind and Transport Data](file:///c:/Users/akd27/Desktop/SIDE%20WORK/Projects/AtmosRisk-Intelligence-Platform/Images/wind.png)
-<br/>
-*Atmospheric transport and wind data analysis visualization.*
 
 ---
 
