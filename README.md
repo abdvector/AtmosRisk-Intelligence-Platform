@@ -1,4 +1,5 @@
 # AtmosRisk Intelligence Platform (ARIP)
+![Release](https://img.shields.io/badge/Release-v1.0.0-007EC6) ![Streamlit](https://img.shields.io/badge/Streamlit-Ready-FF4B4B) ![Python](https://img.shields.io/badge/Python-3.9%2B-007EC6) ![License](https://img.shields.io/badge/License-MIT-97CA00)
 
 > **A modular, graph-based atmospheric risk intelligence system for the Indo-Gangetic Plain.**
 > Integrates streaming analytics, PCA dimensionality reduction, Kruskal's Maximum Spanning Tree,
